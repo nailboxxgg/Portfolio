@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Portfolio of a Creative Developer showcasing projects and skills.">
+    <title>Nels | Developer Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;700&family=Space+Grotesk:wght@300;400;600;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" type='text/css' href="https://cdn.jsdelivr.net/gh/devicon/devicon@latest/devicon.min.css" />
+    <script src="script.js" defer></script>
+</head>
+
+<body>
+    <div class="cursor-dot" data-cursor-dot></div>
+    <div class="cursor-outline" data-cursor-outline></div>
+
+    <header class="header">
+        <div class="container nav-container">
+            <a href="#home" class="logo"><img src="Assets/Images/logo.png" alt="Nels Logo" class="logo-img"></a>
+            <nav class="nav">
+                <ul class="nav-list">
+                    <li><a href="#home" class="nav-link">Home</a></li>
+
+                    <li><a href="#skills" class="nav-link">Skills</a></li>
+                    <li><a href="#projects" class="nav-link">Projects</a></li>
+                    <li><a href="#contact" class="nav-link">Contact</a></li>
+                </ul>
+                <button class="theme-toggle" aria-label="Toggle theme">
+                    <svg class="sun-icon" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <circle cx="12" cy="12" r="5"></circle>
+                        <line x1="12" y1="1" x2="12" y2="3"></line>
+                        <line x1="12" y1="21" x2="12" y2="23"></line>
+                        <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+                        <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+                        <line x1="1" y1="12" x2="3" y2="12"></line>
+                        <line x1="21" y1="12" x2="23" y2="12"></line>
+                        <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+                        <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+                    </svg>
+                    <svg class="moon-icon" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+                    </svg>
+                </button>
+                <div class="hamburger">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section id="home" class="hero">
+            <div class="container hero-container">
+                <div class="hero-content fade-in-up">
+                    <p class="hero-greeting">Hello, I'm</p>
+                    <h1 class="hero-title"><span class="text-gradient">Marc Nels Luminoque</span></h1>
+                    <h2 class="hero-subtitle">Building digital experiences that matter.</h2>
+                    <p class="hero-description">I'm a passionate Developer specializing in building
+                        exceptional digital experiences.</p>
+                    <div class="hero-buttons">
+                        <a href="#projects" class="btn btn-primary">View Works</a>
+                        <a href="Assets/Files/Resume.docx.pdf" class="btn btn-outline" target="_blank" download>Download
+                            my Resume</a>
+                    </div>
+                </div>
+                <div class="hero-visual fade-in-up delay-200">
+                    <div class="blob-container">
+                        <div class="blob blob-1"></div>
+                        <div class="blob blob-2"></div>
+                        <div class="profile-photo-container">
+                            <img src="Assets/Images/nels.jpg" alt="Nels" class="profile-photo">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="scroll-down">
+                <a href="#projects" aria-label="Scroll down">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                        stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                        <path d="M7 13l5 5 5-5M7 6l5 5 5-5" />
+                    </svg>
+                </a>
+            </div>
+        </section>
+
+
+
+
+        <section id="skills" class="section skills">
+            <div class="container">
+                <h2 class="section-title fade-in-up">Skills & Tools</h2>
+                <div class="skills-grid">
+                    <div class="skill-item fade-in-up">
+                        <div class="skill-icon">
+                            <img src="Assets/Images/Skills/html.svg" alt="HTML">
+                        </div>
+                        <span class="skill-name">HTML</span>
+                    </div>
+                    <div class="skill-item fade-in-up delay-100">
+                        <div class="skill-icon">
+                            <img src="Assets/Images/Skills/css.svg" alt="CSS">
+                        </div>
+                        <span class="skill-name">CSS</span>
+                    </div>
+                    <div class="skill-item fade-in-up delay-200">
+                        <div class="skill-icon">
+                            <img src="Assets/Images/Skills/javascript.svg" alt="JavaScript">
+                        </div>
+                        <span class="skill-name">JavaScript</span>
+                    </div>
+                    <div class="skill-item fade-in-up delay-300">
+                        <div class="skill-icon">
+                            <img src="Assets/Images/Skills/flutter.svg" alt="Flutter">
+                        </div>
+                        <span class="skill-name">Flutter</span>
+                    </div>
+                    <div class="skill-item fade-in-up">
+                        <div class="skill-icon">
+                            <img src="Assets/Images/Skills/unity.svg" alt="Unity">
+                        </div>
+                        <span class="skill-name">Unity</span>
+                    </div>
+                    <div class="skill-item fade-in-up delay-100">
+                        <div class="skill-icon">
+                            <img src="Assets/Images/Skills/csharp.svg" alt="C#">
+                        </div>
+                        <span class="skill-name">C#</span>
+                    </div>
+                    <div class="skill-item fade-in-up delay-200">
+                        <div class="skill-icon">
+                            <img src="Assets/Images/Skills/blender.svg" alt="Blender">
+                        </div>
+                        <span class="skill-name">Blender</span>
+                    </div>
+                    <div class="skill-item fade-in-up delay-300">
+                        <div class="skill-icon">
+                            <img src="Assets/Images/Skills/sketchup.svg" alt="SketchUp">
+                        </div>
+                        <span class="skill-name">SketchUp</span>
+                    </div>
+                    <div class="skill-item fade-in-up">
+                        <div class="skill-icon">
+                            <img src="Assets/Images/Skills/vscode.svg" alt="VS Code">
+                        </div>
+                        <span class="skill-name">VS Code</span>
+                    </div>
+                    <div class="skill-item fade-in-up delay-100">
+                        <div class="skill-icon">
+                            <img src="Assets/Images/Skills/androidstudio.svg" alt="Android Studio">
+                        </div>
+                        <span class="skill-name">Android Studio</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="projects" class="section projects">
+            <div class="container">
+                <h2 class="section-title fade-in-up">Featured Projects</h2>
+                <div class="projects-grid">
+                    <!-- Project 1 (New) -->
+                    <article class="project-card fade-in-up">
+                        <div class="project-image">
+                            <div class="placeholder-img gradient-1"></div>
+                        </div>
+                        <div class="project-content">
+                            <h3 class="project-title">TaraNaPSU: AR Navigation Application (Ongoing Project)</h3>
+                            <p class="project-description">An augmented reality navigation application designed for PSU,
+                                helping users navigate the campus with ease using AR technology.</p>
+                            <div class="project-tech">
+                                <span>Unity</span>
+                                <span>C#</span>
+                                <span>AR Foundation</span>
+                            </div>
+                            <div class="project-links">
+                                <a href="https://github.com/nailboxxgg/TaraNaPSU" class="link-icon" aria-label="GitHub"
+                                    target="_blank"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20"
+                                        viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                                        stroke-linecap="round" stroke-linejoin="round">
+                                        <path
+                                            d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22">
+                                        </path>
+                                    </svg></a>
+                            </div>
+                        </div>
+                    </article>
+
+                    <!-- Project 2 -->
+
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="section contact">
+            <div class="container">
+                <h2 class="section-title fade-in-up">Get In Touch</h2>
+                <div class="contact-content">
+                    <div class="contact-info fade-in-up">
+
+                        <div class="contact-details">
+                            <a href="marcnelscasequin@gmail.com" class="contact-item">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                                    fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                    stroke-linejoin="round">
+                                    <path
+                                        d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z">
+                                    </path>
+                                    <polyline points="22,6 12,13 2,6"></polyline>
+                                </svg>
+                                marcnelscasequin@gmail.com
+                            </a>
+                            <div class="social-links">
+                                <a href="https://github.com/nailboxxgg" aria-label="GitHub" target="_blank"><svg
+                                        xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                        stroke-linejoin="round">
+                                        <path
+                                            d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22">
+                                        </path>
+                                    </svg></a>
+                                <a href="https://www.linkedin.com/in/marc-nels-luminoque-076616315/"
+                                    aria-label="LinkedIn" target="_blank"><svg xmlns="http://www.w3.org/2000/svg"
+                                        width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                        stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                        <path
+                                            d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z">
+                                        </path>
+                                        <rect x="2" y="9" width="4" height="12"></rect>
+                                        <circle cx="4" cy="4" r="2"></circle>
+                                    </svg></a>
+                                <a href="https://web.facebook.com/imnailboxx.gg" aria-label="Facebook"
+                                    target="_blank"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                                        viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                                        stroke-linecap="round" stroke-linejoin="round">
+                                        <path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z">
+                                        </path>
+                                    </svg></a>
+                                <a href="https://www.instagram.com/println.mnels/" aria-label="Instagram"
+                                    target="_blank"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                                        viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                                        stroke-linecap="round" stroke-linejoin="round">
+                                        <rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect>
+                                        <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path>
+                                        <line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line>
+                                    </svg></a>
+                            </div>
+                        </div>
+                    </div>
+                    <form class="contact-form fade-in-up delay-200" onsubmit="event.preventDefault();">
+                        <div class="form-group">
+                            <label for="name">Name</label>
+                            <input type="text" id="name" name="name" required placeholder="Juan Dela Cruz">
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email</label>
+                            <input type="email" id="email" name="email" required placeholder="juandelacruz@example.com">
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Message</label>
+                            <textarea id="message" name="message" rows="5" required
+                                placeholder="Your message here..."></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container footer-container">
+            <div class="footer-logo"><img src="Assets/Images/logo.png" alt="Nels Logo" class="logo-img"></div>
+            <p class="copyright">&copy; <span id="year"></span> Nels. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+
+</html>
