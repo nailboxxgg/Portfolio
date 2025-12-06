@@ -113,13 +113,11 @@ function initCustomCursor() {
     const clickables = document.querySelectorAll('a, button, input, textarea');
     clickables.forEach(el => {
         el.addEventListener('mouseenter', () => {
-            cursorOutline.style.transform = 'translate(-50%, -50%) scale(1.5)';
-            cursorOutline.style.backgroundColor = 'rgba(255, 255, 255, 0.1)';
+            cursorOutline.classList.add('hovered');
         });
 
         el.addEventListener('mouseleave', () => {
-            cursorOutline.style.transform = 'translate(-50%, -50%) scale(1)';
-            cursorOutline.style.backgroundColor = 'transparent';
+            cursorOutline.classList.remove('hovered');
         });
     });
 }
